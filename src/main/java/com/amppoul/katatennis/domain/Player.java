@@ -1,7 +1,7 @@
 package com.amppoul.katatennis.domain;
 
 import lombok.*;
-
+@ToString(exclude = { "point" })
 @RequiredArgsConstructor(staticName = "of")
 @Getter
 @Setter
