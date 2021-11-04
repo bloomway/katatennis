@@ -7,8 +7,9 @@ import lombok.*;
 @Setter
 public class Player {
     private final String name;
-    private int score = 0;
+    private int point = 0;
 
-    public void scores() {
+    public void scorePoint() {
+        this.point++;
     }
 }

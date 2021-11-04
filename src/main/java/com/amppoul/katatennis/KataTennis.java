@@ -10,9 +10,9 @@ public class KataTennis {
         final Player federer = Player.of("Federer");
 
         final Game game = Game.of(nadal, federer);
-        nadal.scores();
-        nadal.scores();
+        nadal.scorePoint();
+        nadal.scorePoint();
 
-        game.getStatus();
+        game.getScore();
     }
 }
